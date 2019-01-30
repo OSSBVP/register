@@ -1,0 +1,27 @@
+canvas {
+    display: block;
+    background: rgb(5, 10, 32);
+    position: fixed;
+    z-index: -10;
+}
+
+.logo {
+    max-height: 60px
+}
+
+.text-mute{
+    color: white
+}
+.modal-content{
+    color: black;
+    text-align: left;
+}
+
+.copyright{
+    color: aliceblue
+}
+
+#oss_logo{
+    padding-top: 10%;
+    max-width: 40%;
+}

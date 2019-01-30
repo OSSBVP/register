@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>OSS BVCOE</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
+    
+  </head>
+
+  <body id="page-top">
+
+  
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+      <div class="container">
+        <img src="./img/oss_white.png" class="logo m-2">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">OSS BVCOE</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#register">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#instructor">Instructor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
+            </li> 
+          </ul>
+        </div>
+      </div>
+    </nav> 
+  <div id="particles-js"></div>
+  <!-- Header -->
+
+  <header class="masthead">
+    <div class="container">
+        <img id="oss_logo" style="margin-top : 65px; margin-bottom : 45px" src="./img/oss_lg_white.png" alt="oss img">
+        <img id="oss_logo" style="" src="./img/pbfi.png" alt="oss img">
+      <div class="intro-text">
+          <div id="register" class="intro-heading text-uppercase">Workshop on Blockchain</div>
+        <div class="intro-lead-in">Learn the basics of blockchains, smart contracts and develop and deploy a decentralized app on the Ethereum Blockchain.</div>
+
+        <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a> -->
+        <!-- Button trigger modal -->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal">
+	Register For This Event
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+			<form action="http://localhost:8080/Student" method="post" id="myForm" name="form_name"> 
+				<div class="row">
+				  <div class="col">
+					<label for="">First Name</label>
+					<input type="text" name="f_name" class="form-control" placeholder="First name" required>
+				  </div>
+				  <div class="col">
+						<label for="">Last Name</label>
+					<input type="text" name="l_name" class="form-control" placeholder="Last name">
+				  </div>
+				</div>
+				<div class="row">
+					<div class="form-group col-md-6">
+						<label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">					  </div>
+					  <div class="form-group col-md-6">
+              <label for="inputPhone">Phone Number</label>
+              <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                  <div class="input-group-text">+91</div>
+              </div>
+              <input type="text" name="phone" required pattern="[0-9]{10}" maxlength="10" class="form-control" id="inputPhone" placeholder="Phone Number" onkeypress="return isNumber(event)">              
+            </div>
+            </div>
+          </div>
+         
+       
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+  
+				
+			  </form>
+		</div>
+	
+	  </div>
+	</div>
+  </div>
+    </div>
+  </header>
+
+  <section class="bg-light" id="instructor">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Instructor</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/Rikki.png" alt="">
+            <h4>Rishab Lamba</h4>            
+            <p>OSS President</p>
+            <h3 class="section-subheading"> Rishab Lamba, founder of Open Source Society in association with Paytm Build For India, with more than 2 years of experience with blockchains and began his 
+              journey with Ethereum blockchain as part of companies like Full Candidate & Startereum. 
+              Along with Ethereum he has experience with other public and private blockchains like EOS and IBM's Hyperledger which has helped him
+              win major hackathons like Paytm Build For India, EthIndia, Hack In The North solely based on blockchain projects
+           </h3>
+
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://github.com/Rikki407">
+                    <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/rishab-lamba-647a37147/">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/rishab.lamba.37">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>    
+    <div class="row">
+        <div class="col-lg-8 mx-auto text-center"></div>
+      </div>
+    </div>
+  </section> 
+   
+    <section id="faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase" style="color: #FEC811">FAQ</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul >
+              <li>
+                <div class="timeline-panel" >
+                  <div class="timeline-heading" style="color: #636568">
+                    <h4 class="subheading">Who can attend the workshop?</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class=" text-mute">Anyone with the intrest in blockchains whether having a prior background or not can attend this workshop. This is a course to make students understand what blockchain is and how to develop powerful decentralized application around it</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-panel" >
+                  <div class="timeline-heading" style="color: #636568">
+                    <h4 class="subheading">Where will it take place ?</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class=" text-mute">OSS Blockchain workshop will take place on 01/02/19 at Bharati Vidyapeeths College Of Engineering, New Delhi ( A-4 Block, Baba Ramdev Marg, Shiva Enclave, Paschim Vihar, New Delhi, Delhi 110063)</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                  <div class="timeline-panel" >
+                    <div class="timeline-heading" style="color: #636568">
+                      <h4 class="subheading">Timing ?</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class=" text-mute">The workshop will start at 1 pm sharp.</p>
+                    </div>
+                  </div>
+                </li>
+              <li>
+                <div class="timeline-panel" >
+                  <div class="timeline-heading" style="color: #636568">
+                    <h4 class="subheading">What Should I carry ?</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class=" text-mute">Please carry your <strong> entry pass </strong>( provided after the registration process ), your college id. We will be providing you with the computers to work on but you can always bring your own laptops.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+
+
+
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-4">
+            <span class="copyright">Copyright &copy; OSS BVCOE 2018</span>
+          </div> -->
+          <div class="col">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://github.com/OSS-BVP">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossbvp/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+    </footer>
+
+  
+    <!-- Particles -->
+    <script src="js/particles.js"></script>
+		<script src="js/app.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+    <script>
+    function isNumber(evt) {
+      evt = (evt) ? evt : window.event;
+      var charCode = (evt.which) ? evt.which : evt.keyCode;
+      if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+          return false;
+      }
+      return true;
+      }
+    </script>
+  </body>
+
+</html>
